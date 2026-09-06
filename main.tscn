@@ -39,7 +39,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0.44705883, 0.63529414, 1)
+color = Color(0, 0.5411765, 0.62352943, 0.49411765)
+
+[node name="Surface" type="ColorRect" parent="." unique_id=853164866]
+z_index = 10
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.43137255, 1, 0.27450982)
 
 [node name="Player" parent="." unique_id=568144159 instance=ExtResource("1_ig7tw")]
 
